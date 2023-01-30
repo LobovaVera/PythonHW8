@@ -15,7 +15,15 @@ def start():
     model.get_class_list()
     model.open_class_num()
     model.get_class_info()
+    # 2. Какой предмет?
     model.get_subject_class_info()
+    #  4. Вызвать к доске? если ввести exit то выходит из программы
+    # 5. На какую оценку ответ?
+    model.call_to_the_balckboard()
+    # 6. После выхода сохранить все изменения в текущий файл
+    model.add_new_score()
 
     
-start()
+   
+
+    
